@@ -1,12 +1,12 @@
 # 🎮 Catch the Falling Objects
 
-<img width="1235" height="736" alt="Screenshot 2026-06-25 022719" src="https://github.com/user-attachments/assets/80c36335-973b-459e-b6e0-db1fc6c050fe" />
-
 A simple 2D arcade game developed using **Python** and **Pygame**.
 
 The player controls a character at the bottom of the screen and tries to catch falling food objects while avoiding bombs. The game includes a score system, countdown timer, collision detection, and a restart/quit system.
 
 ---
+
+<img width="1235" height="736" alt="Screenshot 2026-06-25 022719" src="https://github.com/user-attachments/assets/80c36335-973b-459e-b6e0-db1fc6c050fe" />
 
 ## 🎯 Game Overview
 
