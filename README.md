@@ -83,3 +83,22 @@ The remaining time is displayed in the top-right corner:
 
 ```text
 Time Left: 00:60
+
+📌 Project Status
+
+Completed Prototype
+
+The current version includes the main gameplay mechanics:
+
+Player movement
+Falling objects
+Random object generation
+Food and bomb objects
+Collision detection
+Score system
+Countdown timer
+Game Over state
+Restart functionality
+
+👥 Contributors
+This project was developed as a collaborative academic project with Dina
