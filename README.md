@@ -1,31 +1,85 @@
-# pygame-fruit-catcher
-An early university project built with Python and Pygame, preserved to showcase my programming growth.
-# Falling Object Game
+# 🎮 Catch the Falling Objects
+
 <img width="1235" height="736" alt="Screenshot 2026-06-25 022719" src="https://github.com/user-attachments/assets/80c36335-973b-459e-b6e0-db1fc6c050fe" />
 
-A simple fruit-catching game developed using Python and Pygame during my Second year at university.
+A simple 2D arcade game developed using **Python** and **Pygame**.
 
-The player controls a basket and attempts to catch falling fruits to increase their score.
+The player controls a character at the bottom of the screen and tries to catch falling food objects while avoiding bombs. The game includes a score system, countdown timer, collision detection, and a restart/quit system.
 
-## Features
-- Basket movement using keyboard controls
-- Falling fruit mechanics
-- Score calculation system
-- Built with Python and Pygame
+---
 
-## Project Information
-This project was completed as part of an early university learning experience.
+## 🎯 Game Overview
 
-The project was developed collaboratively with a fellow student, Dina Al-Shamayleh.
+The main objective is to catch as many falling food objects as possible before the timer runs out.
 
-My contributions included:
-- Game logic implementation
-- Score calculation
-- Gameplay mechanics
+Different objects have different effects:
 
-## Note
-This repository intentionally preserves the original version of the project. While the code contains bugs and design limitations, it serves as a record of my early programming experience and demonstrates my growth as a developer over time.
+- 🍓 Strawberry
+- 🍎 Apple
+- 🥕 Carrot
+- 🍇 Grapes
+- 💣 Bomb
 
-## Technologies
-- Python
-- Pygame
+Catching a food object increases the score by **1 point**.
+
+Catching a bomb decreases the score by **1 point**.
+
+The game ends when:
+
+- ⏱️ The 60-second timer expires.
+- 💣 The score becomes negative.
+- ❌ The player closes the game.
+
+---
+
+## ✨ Features
+
+- 🎮 Keyboard-controlled player movement
+- ⬅️➡️ Left and right movement
+- 🍎 Multiple falling food objects
+- 💣 Randomly generated bombs
+- 💥 Collision detection
+- 🏆 Real-time score system
+- ⏱️ 60-second countdown timer
+- 🔄 Restart option
+- 🚪 Quit option
+- 🖼️ Custom game images and background
+- 🎲 Random falling object types and speeds
+
+---
+
+## 🕹️ Controls
+
+| Key | Action |
+|---|---|
+| `←` | Move left |
+| `A` | Move left |
+| `→` | Move right |
+| `D` | Move right |
+| `R` | Restart after Game Over |
+| `Q` | Quit after Game Over |
+
+---
+
+## 📊 Scoring System
+
+| Object | Effect |
+|---|---:|
+| 🍓 Strawberry | +1 |
+| 🍎 Apple | +1 |
+| 🥕 Carrot | +1 |
+| 🍇 Grapes | +1 |
+| 💣 Bomb | -1 |
+
+The game ends immediately if the score becomes less than zero.
+
+---
+
+## ⏱️ Game Timer
+
+Each game lasts for **60 seconds**.
+
+The remaining time is displayed in the top-right corner:
+
+```text
+Time Left: 00:60
